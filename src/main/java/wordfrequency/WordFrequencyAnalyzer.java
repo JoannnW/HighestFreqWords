@@ -9,6 +9,7 @@ public class WordFrequencyAnalyzer {
         //properties
         private ArrayList<String> commonWords = new ArrayList<>();
         private ArrayList<String> textOne = new ArrayList<>();
+        private int counter;
 
         //constructors
         public WordFrequencyAnalyzer(){

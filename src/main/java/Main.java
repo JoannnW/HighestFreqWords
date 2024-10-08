@@ -10,6 +10,6 @@ public class Main {
         analyzer.loadTextOne("src/main/textOne.txt");
 
         String mostFrequentWord = analyzer.highestFreqWord();
-        System.out.println("The word with the highest frequency not in common words is: " + mostFrequentWord);
+        System.out.println(mostFrequentWord);
     }
 }

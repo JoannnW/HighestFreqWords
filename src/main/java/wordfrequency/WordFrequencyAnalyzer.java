@@ -59,6 +59,6 @@ public class WordFrequencyAnalyzer {
                     highestFreqWord = word;
                 }
             }
-            return highestFreqWord;
+            return "The word with the highest frequency not in common words is " + highestFreqWord + ", with a frequency of " + maxCount + " words.";
         }
 }
